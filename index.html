@@ -1,0 +1,414 @@
+```html
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Patricia Ioannou | Advogada Especialista em Direito de Família e Soluções Imobiliárias</title>
+
+<meta name="description" content="Advogada especialista em Direito de Família e Soluções Imobiliárias. Atendimento em São Paulo e região.">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Segoe UI, Arial, sans-serif;
+}
+
+body{
+background:#f4f1eb;
+color:#333;
+line-height:1.6;
+}
+
+:root{
+--dourado:#8a6a3d;
+--azul:#17324d;
+}
+
+.hero{
+background:
+linear-gradient(rgba(0,0,0,.30),rgba(0,0,0,.30)),
+url('fotos/banner.png');
+
+background-size:cover;
+background-position:center center;
+background-repeat:no-repeat;
+
+color:white;
+
+min-height:650px;
+
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+
+text-align:center;
+
+padding:220px 20px 140px 20px;
+}
+
+.hero h1{
+font-size:2.8rem;
+margin-bottom:15px;
+text-shadow:0 2px 10px rgba(0,0,0,.5);
+}
+
+.hero h2{
+font-size:1.15rem;
+font-weight:400;
+max-width:900px;
+margin-bottom:30px;
+text-shadow:0 2px 10px rgba(0,0,0,.5);
+}
+
+.hero p{
+font-size:1.05rem;
+margin-bottom:30px;
+text-shadow:0 2px 10px rgba(0,0,0,.5);
+}
+
+.whatsapp{
+display:inline-block;
+background:#25D366;
+color:white;
+padding:15px 25px;
+border-radius:8px;
+text-decoration:none;
+font-weight:bold;
+transition:.3s;
+}
+
+.whatsapp:hover{
+opacity:.9;
+}
+
+.container{
+max-width:1200px;
+margin:auto;
+padding:50px 20px;
+}
+
+.card{
+background:white;
+padding:30px;
+border-radius:15px;
+margin-bottom:25px;
+box-shadow:0 5px 20px rgba(0,0,0,.08);
+transition:.3s;
+}
+
+.card:hover{
+transform:translateY(-3px);
+}
+
+h3{
+margin-bottom:20px;
+color:var(--azul);
+font-size:1.4rem;
+position:relative;
+padding-bottom:10px;
+}
+
+h3::after{
+content:"";
+position:absolute;
+left:0;
+bottom:0;
+width:60px;
+height:3px;
+background:var(--dourado);
+}
+
+.perfil{
+width:300px;
+height:300px;
+object-fit:cover;
+border-radius:50%;
+display:block;
+margin:0 auto 25px;
+border:8px solid var(--dourado);
+box-shadow:0 10px 30px rgba(0,0,0,.25);
+}
+
+.galeria{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+
+.galeria img{
+width:100%;
+height:280px;
+object-fit:cover;
+border-radius:12px;
+transition:.4s;
+cursor:pointer;
+box-shadow:0 3px 12px rgba(0,0,0,.15);
+}
+
+.galeria img:hover{
+transform:scale(1.05);
+}
+
+.servicos{
+columns:2;
+}
+
+.servicos li{
+margin-bottom:10px;
+}
+
+.info{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+gap:20px;
+}
+
+.servicos-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:15px;
+margin-top:20px;
+}
+
+.servico-card{
+background:#f8f6f2;
+border-left:5px solid var(--dourado);
+padding:18px;
+border-radius:10px;
+font-weight:500;
+transition:.3s;
+box-shadow:0 2px 8px rgba(0,0,0,.05);
+}
+
+.servico-card:hover{
+transform:translateY(-4px);
+box-shadow:0 8px 20px rgba(0,0,0,.12);
+}
+
+
+.botao-flutuante{
+position:fixed;
+bottom:20px;
+right:20px;
+background:#25D366;
+color:white;
+padding:15px 20px;
+border-radius:50px;
+text-decoration:none;
+font-weight:bold;
+box-shadow:0 3px 10px rgba(0,0,0,.3);
+z-index:999;
+}
+
+table{
+width:100%;
+border-collapse:collapse;
+}
+
+table td{
+padding:10px;
+border-bottom:1px solid #eee;
+}
+
+@media(max-width:768px){
+
+.hero h1{
+font-size:2rem;
+}
+
+.servicos{
+columns:1;
+}
+
+}
+
+</style>
+</head>
+
+<body>
+
+<header class="hero">
+
+
+</header>
+
+<div class="container">
+
+<div class="card">
+
+<h3>Sobre</h3>
+
+<p>
+Atuação especializada em Direito de Família e Soluções Imobiliárias, oferecendo atendimento humanizado, estratégico e personalizado para cada cliente.
+</p>
+
+</div>
+
+<div class="card">
+
+<img
+src="fotos/perfil.jpg"
+alt="Patricia Ioannou"
+class="perfil">
+
+<h3 style="text-align:center;">
+Patricia Ioannou
+</h3>
+
+<p style="text-align:center;">
+Advogada especialista em Direito de Família e Soluções Imobiliárias.
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>Áreas de Atuação</h3>
+
+<div class="servicos-grid">
+
+<div class="servico-card">🤝 Acordos pré-nupciais e matrimoniais</div>
+
+<div class="servico-card">👨‍👧 Confirmação de paternidade</div>
+
+<div class="servico-card">📄 Litígios contratuais</div>
+
+<div class="servico-card">⚖️ Divórcio judicial e extrajudicial</div>
+
+<div class="servico-card">🛡️ Tutela e curatela</div>
+
+<div class="servico-card">👨‍👩‍👧 Guarda e visitação</div>
+
+<div class="servico-card">🏡 Guarda compartilhada</div>
+
+<div class="servico-card">👶 Guarda de menores</div>
+
+<div class="servico-card">👨 Direitos do pai</div>
+
+<div class="servico-card">💰 Pensão alimentícia</div>
+
+<div class="servico-card">📚 Mediação familiar</div>
+
+<div class="servico-card">❤️ Adoção</div>
+
+<div class="servico-card">📜 Inventário e testamento</div>
+
+<div class="servico-card">🏛️ Sucessão patrimonial</div>
+
+<div class="servico-card">🏢 Holding familiar</div>
+
+<div class="servico-card">🏠 Soluções imobiliárias</div>
+
+</div>
+
+</div>
+
+<div class="card">
+
+<h3>Horário de Atendimento</h3>
+
+<table>
+
+<tr>
+<td><strong>Segunda-feira</strong></td>
+<td>09:00 às 19:00</td>
+</tr>
+
+<tr>
+<td><strong>Terça-feira</strong></td>
+<td>09:00 às 19:00</td>
+</tr>
+
+<tr>
+<td><strong>Quarta-feira</strong></td>
+<td>09:00 às 19:00</td>
+</tr>
+
+<tr>
+<td><strong>Quinta-feira</strong></td>
+<td>09:00 às 19:00</td>
+</tr>
+
+<tr>
+<td><strong>Sexta-feira</strong></td>
+<td>09:00 às 16:00</td>
+</tr>
+
+<tr>
+<td><strong>Sábado</strong></td>
+<td>Fechado</td>
+</tr>
+
+<tr>
+<td><strong>Domingo</strong></td>
+<td>Fechado</td>
+</tr>
+
+</table>
+
+</div>
+
+<div class="card">
+
+<h3>Galeria</h3>
+
+<p style="margin-bottom:20px;">
+Conheça um pouco mais sobre o escritório e o ambiente de atendimento.
+</p>
+
+<div class="galeria">
+
+<img src="fotos/galeria1.jpg" alt="Galeria 1">
+<img src="fotos/galeria2.jpg" alt="Galeria 2">
+<img src="fotos/galeria3.jpg" alt="Galeria 3">
+<img src="fotos/galeria4.jpg" alt="Galeria 4">
+
+</div>
+
+</div>
+
+<div class="card">
+
+<h3>Contato</h3>
+
+<div class="info">
+
+<div>
+<p><strong>Telefone / WhatsApp</strong></p>
+<p>(11) 91373-3082</p>
+</div>
+
+<div>
+<p><strong>Região de Atendimento</strong></p>
+<p>São Paulo e proximidades</p>
+</div>
+
+</div>
+
+<div style="text-align:center; margin-top:30px;">
+
+<a class="whatsapp"
+href="https://wa.me/5511913733082"
+target="_blank">
+Agendar Atendimento pelo WhatsApp
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+<footer>
+
+<h3 style="color:white;">
+
+</body>
+</html>
+```
