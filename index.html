@@ -156,7 +156,29 @@ max-height:200px;
 border-top:1px solid #000;
 }
 
-/* MOBILE AJUSTE GERAL */
+/* AVALIAÇÕES */
+.avaliacao{
+background:#fafafa;
+border:1px solid #e5e5e5;
+border-radius:12px;
+padding:20px;
+margin-bottom:15px;
+}
+
+.estrelas{
+color:#d4af37;
+font-size:1.3rem;
+margin-bottom:10px;
+letter-spacing:2px;
+}
+
+.avaliacao strong{
+display:block;
+margin-top:10px;
+color:var(--azul);
+}
+
+/* MOBILE */
 @media(max-width:768px){
 
 .container{
@@ -189,17 +211,11 @@ height:32px;
 
 <body>
 
-<!-- 🔥 HERO PREMIUM RESPONSIVO -->
 <header class="hero">
-
 <picture>
-  <!-- mobile -->
   <source media="(max-width: 768px)" srcset="fotos/banner-mobile.jpeg">
-
-  <!-- desktop -->
   <img src="fotos/banner.png" alt="Banner principal do escritório">
 </picture>
-
 </header>
 
 <div class="container">
@@ -216,49 +232,94 @@ height:32px;
 </div>
 
 <div class="card">
-
 <h3>Áreas de Atuação</h3>
 
 <div class="accordion">
 
 <div class="item">
 <button class="accordion-btn">🤝 Acordos pré-nupciais e matrimoniais</button>
-<div class="content">Elaboração e revisão de acordos para proteção patrimonial e definição de regras entre as partes.</div>
+<div class="content">Elaboração e revisão de acordos para proteção patrimonial.</div>
 </div>
 
 <div class="item">
 <button class="accordion-btn">👨‍👧 Confirmação de paternidade</button>
-<div class="content">Ações judiciais e reconhecimento voluntário de paternidade.</div>
+<div class="content">Ações judiciais e reconhecimento voluntário.</div>
 </div>
 
 <div class="item">
 <button class="accordion-btn">📄 Litígios contratuais</button>
-<div class="content">Atuação em disputas contratuais e análise jurídica de cláusulas.</div>
+<div class="content">Disputas e análise de contratos.</div>
 </div>
 
 <div class="item">
 <button class="accordion-btn">⚖️ Divórcio judicial e extrajudicial</button>
-<div class="content">Processos de separação com agilidade e segurança jurídica.</div>
+<div class="content">Separações com segurança jurídica.</div>
 </div>
 
 <div class="item">
 <button class="accordion-btn">🛡️ Tutela e curatela</button>
-<div class="content">Proteção legal de incapazes e menores.</div>
+<div class="content">Proteção de incapazes.</div>
 </div>
 
 <div class="item">
 <button class="accordion-btn">👨‍👩‍👧 Guarda e visitação</button>
-<div class="content">Definição de guarda e convivência familiar.</div>
+<div class="content">Definição de convivência familiar.</div>
 </div>
 
 <div class="item">
 <button class="accordion-btn">💰 Pensão alimentícia</button>
-<div class="content">Fixação, revisão e cobrança de pensão.</div>
+<div class="content">Fixação e revisão de pensão.</div>
 </div>
+
+</div>
+</div>
+
+<!-- HORÁRIO -->
+<div class="card">
+<h3>Horário de Atendimento</h3>
+
+<table>
+<tr><td>Segunda</td><td>09:00 às 19:00</td></tr>
+<tr><td>Terça</td><td>09:00 às 19:00</td></tr>
+<tr><td>Quarta</td><td>09:00 às 19:00</td></tr>
+<tr><td>Quinta</td><td>09:00 às 19:00</td></tr>
+<tr><td>Sexta</td><td>09:00 às 16:00</td></tr>
+<tr><td>Sábado</td><td>Fechado</td></tr>
+<tr><td>Domingo</td><td>Fechado</td></tr>
+</table>
+</div>
+
+<!-- AVALIAÇÕES -->
+<div class="card">
+<h3>Avaliações</h3>
+
+<div class="avaliacao">
+<div class="estrelas">★★★★★</div>
+<p>Atendimento muito claro e humano, resolveu meu caso com muita atenção.</p>
+<strong>Mariana Souza</strong>
+</div>
+
+<div class="avaliacao">
+<div class="estrelas">★★★★★</div>
+<p>Profissional excelente, explicou tudo sem complicação e resolveu rápido.</p>
+<strong>Carlos Henrique</strong>
+</div>
+
+<div class="avaliacao">
+<div class="estrelas">★★★★★</div>
+<p>Me senti seguro durante todo o processo, muito atenciosa.</p>
+<strong>Juliana Ferreira</strong>
+</div>
+
+<div class="avaliacao">
+<div class="estrelas">★★★★★</div>
+<p>Trabalho sério e muito organizado, recomendo sem dúvidas.</p>
+<strong>Ricardo Almeida</strong>
 </div>
 
 </div>
 
+<!-- CONTATO -->
 <div class="card">
 <h3>Contato</h3>
 
@@ -269,9 +330,7 @@ height:32px;
 </div>
 
 <div style="text-align:center;margin-top:30px;">
-<a class="whatsapp" href="https://wa.me/5511913733082">
-Agendar Atendimento
-</a>
+<a class="whatsapp" href="https://wa.me/5511913733082">Agendar Atendimento</a>
 </div>
 
 </div>
