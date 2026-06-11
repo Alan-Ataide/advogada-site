@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Patricia Ioannou | Advogada Especialista em Direito de Família e Soluções Imobiliárias</title>
+
+<meta name="description" content="Advogada especialista em Direito de Família e Soluções Imobiliárias. Atendimento em São Paulo e região.">
+
+<style>
+
+body{
+background:#f4f1eb;
+color:#333;
+line-height:1.6;
+margin:0;
+font-family: Arial, sans-serif;
+}
+
+:root{
+--dourado:#8a6a3d;
+--azul:#17324d;
+}
+
+/* HERO */
+.hero{
+width:100%;
+}
+
+.hero picture,
+.hero img{
+width:100%;
+display:block;
+}
+
+/* BOTÃO WHATS */
+.botao-flutuante{
+position:fixed;
+bottom:20px;
+right:20px;
+width:70px;
+height:70px;
+background:#25D366;
+border-radius:50%;
+display:flex;
+align-items:center;
+justify-content:center;
+box-shadow:0 5px 15px rgba(0,0,0,.3);
+z-index:9999;
+transition:0.3s;
+}
+
+.botao-flutuante:hover{
+transform:scale(1.1);
+}
+
+.botao-flutuante img{
+width:40px;
+height:40px;
+}
+
+/* CONTAINER */
+.container{
+max-width:1200px;
+margin:auto;
+padding:50px 20px;
+}
+
+/* CARD */
+.card{
+background:white;
+padding:30px;
+border-radius:15px;
+margin-bottom:25px;
+box-shadow:0 5px 20px rgba(0,0,0,.08);
+border:1px solid var(--dourado);
+}
+
+/* TITULOS */
+h3{
+color:var(--azul);
+position:relative;
+padding-bottom:10px;
+}
+
+h3::after{
+content:"";
+position:absolute;
+left:0;
+bottom:0;
+width:60px;
+height:3px;
+background:var(--dourado);
+}
+
+/* PERFIL */
+.perfil{
+width:300px;
+height:300px;
+object-fit:cover;
+border-radius:50%;
+display:block;
+margin:0 auto 25px;
+border:8px solid var(--dourado);
+}
+
+/* WHATS */
+.whatsapp{
+display:inline-block;
+background:#25D366;
+color:white;
+padding:15px 25px;
+border-radius:8px;
+text-decoration:none;
+font-weight:bold;
+}
+
+/* INFO */
+.info{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+gap:20px;
+}
+
+/* ACCORDION */
+.accordion .item{
+border:1px solid #000;
+border-radius:10px;
+margin-bottom:10px;
+overflow:hidden;
+background:white;
+}
+
+.accordion-btn{
+width:100%;
+text-align:left;
+padding:15px;
+border:none;
+background:#f8f6f2;
+border-left:5px solid var(--dourado);
+cursor:pointer;
+font-weight:600;
+}
+
+.content{
+max-height:0;
+overflow:hidden;
+transition:max-height 0.3s ease;
+padding:0 15px;
+}
+
+.item.active .content{
+padding:15px;
+max-height:200px;
+border-top:1px solid #000;
+}
+
+/* MOBILE AJUSTE GERAL */
+@media(max-width:768px){
+
+.container{
+padding:25px 12px;
+}
+
+.card{
+padding:18px;
+}
+
+.perfil{
+width:200px;
+height:200px;
+}
+
+.botao-flutuante{
+width:60px;
+height:60px;
+}
+
+.botao-flutuante img{
+width:32px;
+height:32px;
+}
+
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- 🔥 HERO PREMIUM RESPONSIVO -->
+<header class="hero">
+
+<picture>
+  <!-- mobile -->
+  <source media="(max-width: 768px)" srcset="fotos/banner-mobile.png">
+
+  <!-- desktop -->
+  <img src="fotos/banner.png" alt="Banner principal do escritório">
+</picture>
+
+</header>
+
+<div class="container">
+
+<div class="card">
+<h3>Sobre</h3>
+<p>Atuação especializada em Direito de Família e Soluções Imobiliárias, oferecendo atendimento humanizado, estratégico e personalizado para cada cliente.</p>
+</div>
+
+<div class="card">
+<img src="fotos/perfil.jpg" class="perfil" alt="Patricia Ioannou">
+<h3 style="text-align:center;">Patricia Ioannou</h3>
+<p style="text-align:center;">Advogada especialista em Direito de Família e Soluções Imobiliárias.</p>
+</div>
+
+<div class="card">
+
+<h3>Áreas de Atuação</h3>
+
+<div class="accordion">
+
+<div class="item">
+<button class="accordion-btn">🤝 Acordos pré-nupciais</button>
+<div class="content">Proteção patrimonial e acordos legais.</div>
+</div>
+
+<div class="item">
+<button class="accordion-btn">👨‍👧 Paternidade</button>
+<div class="content">Reconhecimento judicial e voluntário.</div>
+</div>
+
+<div class="item">
+<button class="accordion-btn">⚖️ Divórcio</button>
+<div class="content">Processos rápidos e seguros.</div>
+</div>
+
+</div>
+
+</div>
+
+<div class="card">
+<h3>Contato</h3>
+
+<div class="info">
+<div><p><strong>WhatsApp</strong></p><p>(11) 91373-3082</p></div>
+<div><p><strong>E-mail</strong></p><p>patyioannou@hotmail.com</p></div>
+<div><p><strong>Região</strong></p><p>São Paulo</p></div>
+</div>
+
+<div style="text-align:center;margin-top:30px;">
+<a class="whatsapp" href="https://wa.me/5511913733082">
+Agendar Atendimento
+</a>
+</div>
+
+</div>
+
+</div>
+
+<a class="botao-flutuante" href="https://wa.me/5511913733082">
+<img src="fotos/whatsapp.png">
+</a>
+
+<script>
+const items=document.querySelectorAll(".item");
+items.forEach(item=>{
+  item.querySelector(".accordion-btn").addEventListener("click",()=>{
+    items.forEach(i=>i!==item&&i.classList.remove("active"));
+    item.classList.toggle("active");
+  });
+});
+</script>
+
+</body>
+</html>
